@@ -1,0 +1,27 @@
+.New-image-containter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.HomeParallax {
+  margin-top: 8vh;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  animation-name: fadeInParallax;
+  animation-duration: 2.5s;
+}
+
+@keyframes fadeInParallax {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

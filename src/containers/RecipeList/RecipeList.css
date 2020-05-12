@@ -1,0 +1,62 @@
+.Grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.Outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Screen {
+  display: flex;
+  justify-content: center;
+}
+
+.Cuisine-icons-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vw;
+}
+
+.Cuisine-icons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+}
+
+.Recipe-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: headerImageFadeIn;
+  animation-duration: 2.5s;
+}
+
+.Recipe-list-subheader {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 20px;
+  animation-name: headerImageFadeIn;
+  animation-duration: 2.5s;
+}
+
+@keyframes headerImageFadeIn {
+  0% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

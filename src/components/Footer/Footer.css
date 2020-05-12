@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2|Merriweather+Sans&display=swap");
+
+.Link-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 60px;
+}
+
+.Created-by-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.Footer-clickable-list {
+  margin-bottom: 25px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-list-header {
+  font-family: "Merriweather Sans", sans-serif;
+  margin-bottom: 10px;
+  text-align: start;
+  font-size: xx-large;
+}
+.Footer-list-item {
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 5px;
+  text-align: start;
+  font-size: large;
+  font-weight: bold;
+  transition: 1s;
+  opacity: 1;
+}
+
+.Footer-list-item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Thanks-for-visiting {
+  background-color: cornflowerblue;
+  width: 60%;
+  justify-content: center;
+  margin: 90px;
+  height: 200px;
+  text-align: center;
+}

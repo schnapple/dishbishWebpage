@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Asap|Poppins|Questrial&display=swap");
+
+.Recipe-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.Detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Recipe-detail-image {
+  object-fit: cover;
+  width: 100vh;
+  height: 60vh;
+}
+
+.Recipe-detail-title {
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Questrial", sans-serif;
+  font-weight: bolder;
+  font-size: calc(35px + 2vmin);
+  opacity: 1;
+  transition: 0.05s;
+}
+
+.Ingredients-container {
+  text-align: start;
+  width: 20%;
+}
+
+.Instructions-container {
+  width: 60%;
+  text-align: start;
+}
+
+.Ingredient-item {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Asap", sans-serif;
+  margin: 10px;
+}
+
+.Instruction-item {
+  font-size: x-large;
+  font-family: "Comfortaa", cursive;
+  margin: 20px;
+}
+
+.Recipe-detail-summary {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+
+.Recipe-detail-header {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}

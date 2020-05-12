@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+.Image-title-below-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4vh;
+  width: 40%;
+  transition: 0.3s;
+  animation-name: foodImageFade;
+  animation-duration: 2s;
+}
+
+.Image-title-below-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.Image-title-below-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  opacity: 0.8;
+  color: rgb(66, 62, 62);
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Image-title-below-container:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+@keyframes foodImageFade {
+  from {
+    margin-top: 0vh;
+    opacity: 0;
+  }
+  to {
+    margin-top: 4vh;
+    opacity: 1;
+  }
+}

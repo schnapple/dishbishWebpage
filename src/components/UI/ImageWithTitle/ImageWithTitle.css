@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+.Static-image-with-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 70vh;
+  width: 110vh;
+  object-fit: cover;
+  padding-bottom: 8px;
+  font-size: 12vh;
+  font-family: "Lobster", cursive;
+  margin-bottom: 2vh;
+  animation-name: headerImageFadeIn;
+  animation-duration: 2.5s;
+}
+
+@keyframes headerImageFadeIn {
+  0% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

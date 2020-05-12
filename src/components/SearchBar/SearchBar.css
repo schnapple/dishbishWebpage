@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.Search-bar-container {
+  display: flex;
+  flex-direction: column;
+  height: 1vh;
+  width: 20vw;
+}
+
+.Search-bar-input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Search-bar-input {
+  outline: 0;
+  border-width: 0 0 1px;
+  margin-right: 0.2vw;
+  width: 10vw;
+  height: 3vh;
+  font-size: 1vw;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 1vh;
+}
+
+.Search-bar-result {
+  position: relative;
+  z-index: 4;
+}

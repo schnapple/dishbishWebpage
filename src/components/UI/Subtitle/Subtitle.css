@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.Subtitle-container {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  animation-name: subtitleFadeIn;
+  animation-duration: 4s;
+}
+
+.Subtitle-title {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-size: calc(5px + 2vmin);
+  opacity: 1;
+  transition: 0.05s;
+}
+
+@keyframes subtitleFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

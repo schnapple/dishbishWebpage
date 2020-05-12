@@ -1,0 +1,7 @@
+export const SET_RECIPE = "SET_RECIPE";
+export const FETCH_RECIPE = "FETCH_RECIPE";
+export const FETCH_FAVS = "FETCH_FAVS";
+export const FETCH_NEWS = "FETCH_NEWS";
+export const SET_FILTER_RECIPES = "SET_FILTER_RECIPES";
+export const SET_SEARCHED_RECIPES = "SET_SEARCHED_RECIPES";
+export const CLEARED_SEARCH = "CLEARED_SEARCH";

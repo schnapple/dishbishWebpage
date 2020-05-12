@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+
+.Subheader-container {
+  margin-top: 1vw;
+}
+
+.App-body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  clear: both;
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.Button-text {
+  padding: 1vh;
+  border-color: rgb(147, 174, 224);
+  border-width: thin;
+  font-size: 2vw;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.Button-text:hover {
+  opacity: 0.6;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

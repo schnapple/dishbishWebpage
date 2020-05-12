@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Cedarville+Cursive&display=swap");
+
+.App-header {
+  width: 100%;
+  height: 12vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+}
+
+.Icon-circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.Icon-circle {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 2vh;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.Icon-circle:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.Header-title-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 16vw;
+}
+
+.Header-title {
+  display: flex;
+  font-family: "Cedarville Cursive", cursive;
+  cursor: pointer;
+  height: 5vw;
+  font-size: 4vw;
+  opacity: 1;
+  transition: 0.05s;
+}
+
+.Header-title-amy {
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 6vw;
+  opacity: 1;
+  transition: 0.05s;
+}
+
+.Header-title-amy-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  height: 6vw;
+  justify-content: center;
+}
+
+.Horizontal-line {
+  width: 8vw;
+  height: 0.5vw;
+  background-color: black;
+}
+
+/* .Header-title:hover {
+  font-size: calc(45px + 2vmin);
+  opacity: 0.95;
+} */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

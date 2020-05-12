@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Abel|Indie+Flower&display=swap");
+
+.About-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-body {
+  display: flex;
+  text-align: left;
+  font-size: 4vh;
+  font-family: "Abel", sans-serif;
+  padding: 20px;
+  width: 80%;
+}
+
+.About-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-header {
+  margin-right: 20vw;
+  font-size: 9vh;
+  top: 20px;
+  position: relative;
+  font-family: "Lobster", cursive;
+  text-align: left;
+  margin-bottom: 2vh;
+}
+
+.About-image {
+  position: relative;
+  border-radius: 20px;
+  height: 60vh;
+  width: 70vh;
+  object-fit: cover;
+  padding-bottom: 8px;
+}

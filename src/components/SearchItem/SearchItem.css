@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.Search-item-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10vw;
+  height: 3vh;
+  font-size: 1vw;
+  font-family: "Abel", sans-serif;
+  border-bottom: solid;
+  border-width: 0.1vh;
+  border-color: grey;
+}
